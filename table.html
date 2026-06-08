@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali's table</title>
+  </head>
+  <body>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+
+      th,
+      td {
+        border-style: dotted;
+      }
+      td:nth-child(odd) {
+        background-color: rgba(255, 0, 0, 0.781);
+      }
+    </style>
+    <table border="1" bordercolor="red" cellspacing="3" cellpadding="5">
+      <caption>
+        جدول حقوق کارمندان
+      </caption>
+
+      <tr style="height: 50px">
+        <th>نام</th>
+        <th>نام پدر</th>
+        <th>معاش</th>
+      </tr>
+      <tr>
+        <td>علی</td>
+        <td>امیر محمد</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <td>حسین</td>
+        <td>علی</td>
+        <td>4000</td>
+      </tr>
+      <tr>
+        <td>محمد</td>
+        <td>حسین</td>
+        <td>5000</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center">مجموع</td>
+        <td>12000</td>
+      </tr>
+    </table>
+  </body>
+</html>
