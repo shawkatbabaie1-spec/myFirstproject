@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .programs {
+        padding: 80px 10%;
+        background-color: #f8f9fa;
+        text-align: center;
+      }
+
+      .programs h2 {
+        font-size: 2.5rem;
+        color: #222;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        color: #666;
+        margin-bottom: 50px;
+      }
+
+      .program-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+      }
+
+      .card {
+        background: #fff;
+        width: 260px;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-8px);
+      }
+
+      .card h3 {
+        color: #0077ff;
+        margin-bottom: 15px;
+      }
+
+      .card p {
+        color: #555;
+        line-height: 1.6;
+      }
+    </style>
+  </body>
+</html>
