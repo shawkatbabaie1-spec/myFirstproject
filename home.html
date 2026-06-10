@@ -1,11 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML & CSS Center</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+      }
+      section {
+        margin: 20px auto;
+        padding: 15px;
+        width: 60%;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #007bff;
+      }
+      footer {
+        background-color: #eee;
+        padding: 10px;
+        font-size: 14px;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .box {
+        flex: 1;
+        padding: 10px;
+        background-color: #fdfdfd;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to HTML & CSS Center</h1>
+    </header>
+
+    <section>
+      <h2>About Us</h2>
+      <p>
+        This website is created to help beginners learn HTML and CSS step by
+        step.
+      </p>
+    </section>
+
+    <div class="row">
+      <div class="box">
+        <h2>Vision</h2>
+        <p>
+          To build a digital learning community where students can grow with web
+          development skills.
+        </p>
+      </div>
+      <div class="box">
+        <h2>Mission</h2>
+        <p>
+          To teach HTML and CSS in a simple and practical way for beginners.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
